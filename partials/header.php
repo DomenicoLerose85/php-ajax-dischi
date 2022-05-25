@@ -15,9 +15,11 @@
 </head>
 <body>
     <header> 
-        <nav class="navbar navbar-light">
-            <div class="container"> 
-                <img src="/img/logo-small.svg" alt="logo" width="30" height="24">
+        <nav class="navbar navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                <img src="/img/logo-small.svg" alt="" width="30" height="24">
+                </a>
             </div>
         </nav>
     </header>
