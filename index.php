@@ -1,8 +1,14 @@
 <?php 
-include 'database.php';
+include __DIR__.'/database.php';
 
-include './partials/header.php';
+include __DIR__.'./partials/header.php';
+// var_dump (__DIR__);
 ?>
+
+    <main> 
+    Sono Main
+
+    </main>
 
 
 
