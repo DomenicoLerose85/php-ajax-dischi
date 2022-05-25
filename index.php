@@ -10,7 +10,7 @@ include __DIR__.'./partials/header.php';
             <?php foreach($discs as $disc){?>
             <div class="col-4">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="..." class="card-img-top" alt="img">
                     <div class="card-body">
                         <h5 class="card-title"><?php echo $disc['title'] ?></h5>
                         <h6 class="card-text"><?php echo $disc['author'] ?></h6>
