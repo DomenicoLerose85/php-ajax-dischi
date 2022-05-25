@@ -14,4 +14,10 @@
     <title>Document</title>
 </head>
 <body>
-    <header> Sono Header </header>
+    <header> 
+        <nav class="navbar navbar-light">
+            <div class="container"> 
+                <img src="/img/logo-small.svg" alt="logo" width="30" height="24">
+            </div>
+        </nav>
+    </header>
