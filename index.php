@@ -13,7 +13,9 @@ include __DIR__.'./partials/header.php';
                     <img src="..." class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title"><?php echo $disc['title'] ?></h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h6 class="card-text"><?php echo $disc['author'] ?></h6>
+                        <h6 class="card-text"><?php echo $disc['genre'] ?></h6>
+                        <h6 class="card-text"><?php echo $disc['year'] ?></h6>
                     </div>
                 </div>
             </div>
